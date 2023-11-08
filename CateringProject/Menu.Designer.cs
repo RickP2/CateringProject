@@ -50,6 +50,7 @@
             this.btnCustomerInformation.TabIndex = 7;
             this.btnCustomerInformation.Text = "Customer Info";
             this.btnCustomerInformation.UseVisualStyleBackColor = true;
+            this.btnCustomerInformation.Click += new System.EventHandler(this.btnCustomerInformation_Click);
             // 
             // btnMenuEdit
             // 
@@ -60,10 +61,13 @@
             this.btnMenuEdit.TabIndex = 8;
             this.btnMenuEdit.Text = "Edit Menu";
             this.btnMenuEdit.UseVisualStyleBackColor = true;
+            this.btnMenuEdit.Click += new System.EventHandler(this.btnMenuEdit_Click);
             // 
             // btnReports
             // 
             this.btnReports.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReports.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReports.Location = new System.Drawing.Point(620, 416);
             this.btnReports.Name = "btnReports";
             this.btnReports.Size = new System.Drawing.Size(177, 38);
@@ -74,6 +78,8 @@
             // btnOrderInformation
             // 
             this.btnOrderInformation.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnOrderInformation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOrderInformation.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOrderInformation.Location = new System.Drawing.Point(620, 261);
             this.btnOrderInformation.Name = "btnOrderInformation";
             this.btnOrderInformation.Size = new System.Drawing.Size(177, 38);
@@ -101,6 +107,7 @@
             this.btnExit.TabIndex = 12;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // lblCustomerInformation
             // 

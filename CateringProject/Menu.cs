@@ -31,5 +31,29 @@ namespace CateringProject
             orderForm.Show();
 
         }
+
+        private void btnCustomerInformation_Click(object sender, EventArgs e)
+        {
+            //Close this form and open the Customer_Information form
+            this.Hide();
+            Customer_Information customerInformation = new Customer_Information();
+            customerInformation.Show();
+
+        }
+
+        private void btnMenuEdit_Click(object sender, EventArgs e)
+        {
+            //Close this form and open the Menu_Items form
+            this.Hide();
+            Menu_Items menuItems = new Menu_Items();
+            menuItems.Show();
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            //Exit the application
+            Application.Exit();
+        }
     }
 }
